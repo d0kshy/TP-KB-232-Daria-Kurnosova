@@ -3,7 +3,7 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'topic_01')))
 
-from task3 import findDelta
+from task_3 import findDelta
 
 def findRoots(a, b, c, discriminant):
     a = float(a)
