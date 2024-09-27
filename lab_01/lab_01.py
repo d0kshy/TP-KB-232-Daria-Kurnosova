@@ -4,10 +4,10 @@
 
 # already sorted list
 list = [
-    {"name":"Bob", "phone":"0631234567"},
-    {"name":"Emma", "phone":"0631234567"},
-    {"name":"Jon",  "phone":"0631234567"},
-    {"name":"Zak",  "phone":"0631234567"}
+    {"name":"Bob", "surname":"Smith", "phone":"0631234567", "email":"bobsmith1234@gmail.com"},
+    {"name":"Emma", "surname":"Thomas", "phone":"0631234567", "email":"emmathomas1234@gmail.com"},
+    {"name":"Jon",  "surname":"Brown", "phone":"0631234567", "email":"jonbrown1234@gmail.com"},
+    {"name":"Zak",  "surname":"Abrams", "phone":"0631234567", "email":"zakabrams1234@gmail.com"}
 ]
 
 def printAllList():
@@ -18,8 +18,10 @@ def printAllList():
 
 def addNewElement():
     name = input("Please enter student name: ")
+    surname = input("Please enter student surname: ")
     phone = input("Please enter student phone: ")
-    newItem = {"name": name, "phone": phone}
+    email = input("Please enter student email: ")
+    newItem = {"name": name, "surname":surname, "phone": phone, "email":email}
     # find insert position
     insertPosition = 0
     for item in list:
