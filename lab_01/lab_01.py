@@ -51,35 +51,21 @@ def deleteElement():
 
 def updateElement():
     name = input("Please enter name to be updated: ")
-    # implementation required
-    deletePosition = -1
+    updatePosition = -1
     for item in list:
         if name == item["name"]:
-            deletePosition = list.index(item)
+            updatePosition = list.index(item)
             break
-    if deletePosition == -1:
+    if updatePosition == -1:
         print("Element was not found")
     else:
-        # list.pop(deletePosition)
-        del list[deletePosition]
-    return
+        name = input("Please enter new name")
+        surname = input("Please enter new surname: ")
+        phone = input("Please enter new phone: ")
+        email = input("Please enter new email: ")
+        list[updatePosition] = {"name": name, "surname": surname, "phone": phone, "email": email}
+        print("Existing element has been updated")
 
-    name = input("Please enter student name: ")
-    surname = input("Please enter student surname: ")
-    phone = input("Please enter student phone: ")
-    email = input("Please enter student email: ")
-    newItem = {"name": name, "surname":surname, "phone": phone, "email":email}
-    # find insert position
-    insertPosition = 0
-    for item in list:
-        if name > item["name"]:
-            insertPosition += 1
-        else:
-            break
-    list.insert(insertPosition, newItem)
-
-    print("Existing element has been updated")
-    return
 
 
 def main():
