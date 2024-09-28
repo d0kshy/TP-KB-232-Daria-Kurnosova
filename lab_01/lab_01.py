@@ -59,7 +59,7 @@ def updateElement():
     if updatePosition == -1:
         print("Element was not found")
     else:
-        name = input("Please enter new name")
+        name = input("Please enter new name: ")
         surname = input("Please enter new surname: ")
         phone = input("Please enter new phone: ")
         email = input("Please enter new email: ")
