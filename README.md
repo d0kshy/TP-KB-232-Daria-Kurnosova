@@ -18,3 +18,6 @@ add solution for lab_01 file
 
 add folder topic_04
 add solutions for task1, task2 and task3 files
+
+add folder topic_05
+add solution for task1 file
