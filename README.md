@@ -15,3 +15,6 @@ add solutions for task1, task2 and task3 files
 # 28-09-2024
 add folder lab_01
 add solution for lab_01 file
+
+add folder topic_04
+add solutions for task1, task2 and task3 files
