@@ -21,3 +21,7 @@ add solutions for task1, task2 and task3 files
 
 add folder topic_05
 add solution for task1 file
+
+# 01-10-2024
+
+add solution for task2 and task3 in topic_05
