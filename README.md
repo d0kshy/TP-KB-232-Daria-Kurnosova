@@ -30,3 +30,5 @@ FINALLY add solution for task2 and task3 in topic_05
 
 add folder topic_06
 add solution for task1
+
+add solution for task2
